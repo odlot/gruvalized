@@ -2,6 +2,7 @@
   "name": "gruvalized",
   "displayName": "Gruvalized",
   "description": "A color theme inspired by Gruvbox and Solarized.",
+  "repository": "https://github.com/odlot/gruvalized",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.103.0"
