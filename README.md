@@ -19,4 +19,10 @@ You can author your README using Visual Studio Code. Here are some useful editor
 vsce package
 ```
 
+## Publishing the color theme
+
+```bash
+vsce publish
+```
+
 **Enjoy!**
