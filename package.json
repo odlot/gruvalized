@@ -1,0 +1,21 @@
+{
+  "name": "gruvalized",
+  "displayName": "Gruvalized",
+  "description": "A color theme inspired by Gruvbox and Solarized.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gruvalized",
+        "uiTheme": "vs",
+        "path": "./themes/gruvalized-color-theme.json"
+      }
+    ]
+  }
+}
