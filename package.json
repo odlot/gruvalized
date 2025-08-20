@@ -2,22 +2,48 @@
   "name": "gruvalized",
   "displayName": "Gruvalized",
   "description": "A color theme inspired by Gruvbox and Solarized.",
-  "repository": "https://github.com/odlot/gruvalized",
   "publisher": "odlot-marco-lutz",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.103.0"
+  "version": "0.0.2",
+  "engines": { "vscode": "^1.103.0" },
+  "categories": ["Themes"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odlot/gruvalized.git"
   },
-  "categories": [
-    "Themes"
-  ],
+  "bugs": { "url": "https://github.com/odlot/gruvalized/issues" },
+  "homepage": "https://github.com/odlot/gruvalized#readme",
+
   "contributes": {
     "themes": [
       {
-        "label": "Gruvalized",
+        "label": "Gruvalized Light",
         "uiTheme": "vs",
-        "path": "./themes/gruvalized-color-theme.json"
+        "path": "./themes/gruvalized-light-color-theme.json"
+      },
+      {
+        "label": "Gruvalized Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvalized-dark-color-theme.json"
       }
     ]
-  }
+  },
+
+  "scripts": {
+    "init": "npx tsc --init --rootDir src --outDir dist --esModuleInterop",
+    "build": "ts-node src/index.ts",
+    "vscode:prepublish": "npm run build",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+
+  "files": [
+    "themes/*.json",
+    "README.md",
+    "LICENSE"
+  ]
 }

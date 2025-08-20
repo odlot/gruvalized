@@ -13,6 +13,10 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
+## Building the color theme
+
+Run `npm run build`.
+
 ## Packaging the color theme
 
 ```bash
@@ -24,5 +28,9 @@ vsce package
 ```bash
 vsce publish
 ```
+
+## References
+
+* [VS Code Color Theme API](https://code.visualstudio.com/api/references/theme-color)
 
 **Enjoy!**
