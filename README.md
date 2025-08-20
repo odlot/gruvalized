@@ -33,4 +33,6 @@ vsce publish
 
 * [VS Code Color Theme API](https://code.visualstudio.com/api/references/theme-color)
 
-**Enjoy!**
+## To-Do's
+
+* [x] Lists and trees
